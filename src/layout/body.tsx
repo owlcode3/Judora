@@ -1,14 +1,16 @@
 import CorporateTarget from "../components/corporate-target"
+import Images from "../components/images"
 import JudoraGroup from "../components/judora-group"
 import Operations from "../components/operations"
 
 function Body() {
   return (
-    <div>
+    <>
       <Operations />
       <JudoraGroup />
       <CorporateTarget />
-    </div>
+      <Images />
+    </>
   )
 }
 

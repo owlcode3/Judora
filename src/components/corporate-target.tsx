@@ -6,7 +6,7 @@ function CorporateTarget() {
       <div className="flex gap-14 h-[32rem] w-fit pl-9 pr-1">
         <div className="relative h-[100%] w-[34rem]">
           <img className="object-cover w-full h-full" src="/soku.svg" alt="soku img" />
-          <div className="absolute bottom-0 w-full h-[5.6rem] bg-[rgba(13,12,12,0.4)] shadow-2xl  flex items-center justify-between pl-5 pr-10 text-white font-medium">
+          <div className="absolute bottom-0 w-full h-[5.6rem] bg-[rgba(13,12,12,0.4)] flex items-center justify-between pl-5 pr-10 text-white font-medium">
             <img className="w-14" src="/soku-logo.svg" alt="soku logo" />
             <div className="flex flex-col font-semibold text-xl">
               <span>Upgrade of SOKU</span>

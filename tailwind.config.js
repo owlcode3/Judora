@@ -3,7 +3,8 @@ export default {
    content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
    theme: {
       fontFamily: {
-         primary: ["Poppins"]
+         primary: ["Poppins"],
+         secondary: ["Inter"]
       },
       extend: {}
    },

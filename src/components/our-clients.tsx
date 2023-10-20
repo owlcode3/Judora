@@ -2,7 +2,8 @@
 function OurClients() {
   return (
     <div className="bg-[url('/j-group.svg')] bg-cover bg-no-repeat pt-8 pb-12 px-8">
-      <div className="flex flex-col h-auto border-4 rounded-none border-[#ffff]">
+      <div className="relative flex flex-col h-auto border-4 rounded-none border-[#ffff]">
+        <span className="absolute font-bold text-white text-5xl right-[23rem] top-[12.7rem]">OUR CLIENTS</span>
         <img src="/oi-img.png" alt="our client img" />
         <div className="grid grid-cols-6 gap-1">
           <div className="relative overflow-hidden h-full rounded-t-none rounded-r-none border-r-[2px] border-t-[2px]" >

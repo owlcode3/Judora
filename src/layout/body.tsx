@@ -1,8 +1,9 @@
+import Operations from "../components/operations"
 
 function Body() {
   return (
     <div>
-      <div>Body</div>
+      <Operations />
     </div>
   )
 }

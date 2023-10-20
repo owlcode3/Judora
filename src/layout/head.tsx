@@ -1,5 +1,5 @@
-import Header from "../home/components/header"
-import Hero from "../home/components/hero"
+import Header from "../components/header"
+import Hero from "../components/hero"
 
 
 function Head() {

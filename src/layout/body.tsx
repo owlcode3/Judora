@@ -1,3 +1,4 @@
+import ContactUs from "../components/contact-us"
 import CorporateTarget from "../components/corporate-target"
 import Images from "../components/images"
 import JudoraGroup from "../components/judora-group"
@@ -12,6 +13,7 @@ function Body() {
       <CorporateTarget />
       <Images />
       <OurClients />
+      <ContactUs />
     </>
   )
 }

@@ -1,3 +1,4 @@
+import CorporateTarget from "../components/corporate-target"
 import JudoraGroup from "../components/judora-group"
 import Operations from "../components/operations"
 
@@ -6,6 +7,7 @@ function Body() {
     <div>
       <Operations />
       <JudoraGroup />
+      <CorporateTarget />
     </div>
   )
 }

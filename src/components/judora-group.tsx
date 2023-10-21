@@ -2,7 +2,7 @@ import JudoraGroupCard from "./judora-group-card"
 
 function JudoraGroup() {
   return (
-    <div className="bg-[url('/j-group.svg')] min-h-[52rem] max-h-[52rem] bg-cover bg-no-repeat flex flex-col items-center justify-center gap-8">
+    <div className="bg-[url('/background.png')] min-h-[52rem] max-h-[52rem] bg-cover bg-no-repeat flex flex-col items-center justify-center gap-8">
       <p className="text-white font-semibold max-w-[62rem]">Judora Group is committed to being a leading Engineering,
         Procurement, Logistics and Construction company committed
         to providing Quality Technical and Environmental Management

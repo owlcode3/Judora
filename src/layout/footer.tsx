@@ -2,7 +2,7 @@ import ContactUs from "../components/contact-us"
 
 function Footer() {
   return (
-    <div className="bg-[url('/j-group.svg')] bg-cover bg-no-repeat pt-8 pb-[1.7rem]">
+    <div className="bg-[url('/background.png')] bg-cover bg-no-repeat pt-8 pb-[1.7rem]">
       <ContactUs />
 
       <div className="flex items-center bg-white w-full h-14 mt-8">

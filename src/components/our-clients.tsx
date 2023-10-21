@@ -1,7 +1,7 @@
 
 function OurClients() {
   return (
-    <div className="bg-[url('/j-group.svg')] bg-cover bg-no-repeat pt-8 pb-12 px-8">
+    <div className="bg-[url('/background.png')] bg-cover bg-no-repeat pt-8 pb-12 px-8">
       <div className="relative flex flex-col h-auto border-4 rounded-none border-[#ffff]">
         <span className="absolute font-bold text-white text-5xl right-[23rem] top-[12.7rem]">OUR CLIENTS</span>
         <img src="/oi-img.png" alt="our client img" />

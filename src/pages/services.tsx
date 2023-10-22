@@ -10,7 +10,7 @@ import ScreenBasket from "../components/screen-basket"
 import Sedimentation from "../components/sedimentation"
 import WePit from "../components/we-pit"
 
-function About() {
+function Services() {
   return (
     <div className="font-primary">
       <div className="bg-[url('/background.png')] bg-cover bg-no-repeat px-32 pt-8">
@@ -52,4 +52,4 @@ function About() {
   )
 }
 
-export default About
+export default Services

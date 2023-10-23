@@ -11,10 +11,10 @@ function Header() {
         <Link to='/services' className="relative after:absolute after:block after:right-0 after:bottom-[-2] after:w-0 after:h-[0.2rem] after:bg-white after:transition-all delay-75 ease-in-out hover:after:left-0 hover:after:w-full">
           Services
         </Link>
-        <Link to='/' className="relative after:absolute after:block after:right-0 after:bottom-[-2] after:w-0 after:h-[0.2rem] after:bg-white after:transition-all delay-75 ease-in-out hover:after:left-0 hover:after:w-full">
+        <Link to='/about-us' className="relative after:absolute after:block after:right-0 after:bottom-[-2] after:w-0 after:h-[0.2rem] after:bg-white after:transition-all delay-75 ease-in-out hover:after:left-0 hover:after:w-full">
           About Us
         </Link>
-        <Link to='/' className="relative after:absolute after:block after:right-0 after:bottom-[-2] after:w-0 after:h-[0.2rem] after:bg-white after:transition-all delay-75 ease-in-out hover:after:left-0 hover:after:w-full">
+        <Link to='/contact-us' className="relative after:absolute after:block after:right-0 after:bottom-[-2] after:w-0 after:h-[0.2rem] after:bg-white after:transition-all delay-75 ease-in-out hover:after:left-0 hover:after:w-full">
           Contact Us
         </Link>
       </nav>

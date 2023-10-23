@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 
 function Hero() {
   return (
@@ -15,7 +16,11 @@ function Hero() {
         the International guidelines on Environmental protection procedures.
       </p>
 
-      <button className="w-40 h-14 mt-7 bg-[#0065E7] rounded-[10px] text-white text-base">Read More</button>
+      <Link to="/services" className="">
+        <button className="w-40 h-14 mt-7 bg-[#0065E7] rounded-[10px] text-white text-base">
+          Read More
+        </button>
+      </Link>
 
       <div className="flex justify-between mt-20 max-w-[25rem]">
         <div className="flex flex-col items-center gap-3">

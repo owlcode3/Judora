@@ -13,7 +13,7 @@ import WePit from "../components/we-pit"
 function Services() {
   return (
     <div className="font-primary">
-      <div className="bg-[url('/background.png')] bg-cover bg-no-repeat px-32 pt-8">
+      <div className="bg-[url('/background.png')] bg-cover bg-no-repeat px-32 pt-7">
         <Header />
       </div>
       <>

@@ -12,13 +12,27 @@ function ConstructionOperation() {
           <div className="flex flex-col justify-between">
             <ConstructionOperationCard
               paragraphMaxWidth="42rem"
-              paragraph={"The company, Judora Integrated Services Nigeria Limited is an indigenous Limited Liability Company, incorporated according to the relevant statutory provisions of the Federal Republic of Nigeria. Our business activities comply with all applicable government legislation's, human and environmental safety as well as the International guidelines on Environmental protection procedures. The goal of our operation is a timeous completion of all our clients’ objectives with a good combination of our qualified personnel and modern technology. The Continual investment in our firm's technical competences ensures the professionalism in our job execution and assurance of our customers’ satisfaction."}
+              paragraph={
+                `The company, Judora Integrated Services Nigeria Limited is an indigenous Limited Liability
+                 Company, incorporated according to the relevant statutory provisions of the Federal Republic
+                 of Nigeria. Our business activities comply with all applicable government legislation's, human
+                 and environmental safety as well as the International guidelines on Environmental protection 
+                 procedures. The goal of our operation is a timeous completion of all our clients’ objectives
+                 with a good combination of our qualified personnel and modern technology. The Continual investment
+                 in our firm's technical competences ensures the professionalism in our job execution and assurance
+                 of our customers’ satisfaction.`
+              }
             />
             <ConstructionOperationCard
               headingMaxWidth="40rem"
               paragraphMaxWidth="43rem"
               heading={"Construction, Operation and Maintenance of Sewage Treatment Plant"}
-              paragraph={"We use Activated Sludge system technology as our treatment process for standard waste water treatment. In Judora, we do not only construct, but also conduct the necessary pre fabrication and location analysis to determine the suitability of our system to clients needs. This we achieve by deploying our professional staff to achieve such feat at just a commitment cost."}
+              paragraph={
+                `We use Activated Sludge system technology as our treatment process for standard waste water
+                 treatment. In Judora, we do not only construct, but also conduct the necessary pre fabrication
+                 and location analysis to determine the suitability of our system to clients needs. This we achieve
+                 by deploying our professional staff to achieve such feat at just a commitment cost.`
+              }
             />
           </div>
         </div>

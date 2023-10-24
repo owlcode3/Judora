@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 
+
 function Header() {
+
   return (
     <div className="flex items-center w-[49.8rem]">
       <img src="/logo.svg" alt="judora logo" className="w-40" />

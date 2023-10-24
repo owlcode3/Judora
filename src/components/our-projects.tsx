@@ -1,5 +1,5 @@
 
-function OurClients() {
+function OurProject() {
   return (
     <div className="bg-[url('/background.png')] bg-cover bg-no-repeat pt-8 pb-12 px-8">
       <div className="relative flex flex-col h-auto border-4 rounded-none border-[#ffff]">
@@ -70,4 +70,4 @@ function OurClients() {
   )
 }
 
-export default OurClients
+export default OurProject

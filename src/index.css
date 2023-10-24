@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+span.word_wrap {
+  overflow: hidden;
+  display: inline-block;
+  will-change: transform;
+}

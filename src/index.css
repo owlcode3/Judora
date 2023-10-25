@@ -5,5 +5,5 @@
 span.word_wrap {
   overflow: hidden;
   display: inline-block;
-  will-change: transform;
+  will-change: transform, opacity;
 }

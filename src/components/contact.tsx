@@ -1,5 +1,5 @@
 
-function ContactUs() {
+function Contact() {
   return (
     <div className="relative flex flex-col h-[34rem] px-8">
       <img className="w-full h-full object-cover" src="/cu-img.png" alt="contact us img" />
@@ -36,4 +36,4 @@ function ContactUs() {
   )
 }
 
-export default ContactUs
+export default Contact

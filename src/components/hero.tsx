@@ -1,9 +1,10 @@
 import { useEffect, useState } from "react"
-import { PrismicLink, PrismicImage } from '@prismicio/react'
+import { PrismicImage } from '@prismicio/react'
 import { client } from "../prismic"
 import gsap from "gsap"
 import Splitting from "splitting"
 import { PrismicDocument } from "@prismicio/client"
+import { Link } from "react-router-dom"
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
 function AppendSpanElement(lines: any) {
@@ -30,7 +31,6 @@ function Hero() {
       const page = await client.getAllByType('home-page')
 
       setPrismicData(page)
-      console.log(prismicData && prismicData[0].data["hero-small-images"][0]["hero-img1"])
 
       const headingText = page[0].data["hero-heading"][0].text;
       const paragraphText = page[0].data["hero-paragraph"][0].text;
@@ -80,11 +80,11 @@ function Hero() {
         <p id='hero-paragraph' className="text-white text-sm max-w-[40rem] mt-7 invisible" />
       </div>
 
-      <PrismicLink field={prismicData && prismicData[0].data["hero-btn-link"]} >
+      <Link to='/services' >
         <button className="w-40 h-14 mt-7 bg-[#0065E7] rounded-[10px] text-white text-base">
           Read More
         </button>
-      </PrismicLink>
+      </Link>
 
       <div className="flex justify-between mt-14 max-w-[25rem]">
         <div className="flex flex-col items-center gap-3">
